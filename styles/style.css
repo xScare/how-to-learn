@@ -29,7 +29,7 @@
   background-image: url("../images/logo_place_header.svg");
   position: absolute;
   z-index: 2;
-  object-fit: cover;
+  background-size: contain;
 }
 
 .header__title {
@@ -70,13 +70,7 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-  background-size: cover;
-}
-
-.header__image {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -148,7 +142,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  display: flex;
+  text-align: center;
   justify-content: center;
   padding: 0px;
   margin: 0px;
@@ -162,9 +156,7 @@
   font-weight: normal;
   display: flex;
   justify-content: center;
-  margin: 0px;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  margin: 20px auto 0;
 }
 
 .table {
@@ -290,10 +282,6 @@
   color: #fff;
 }
 
-.footer__columnk-link {
-  display: flex;
-}
-
 .footer__columns {
   width: 90%;
   display: flex;
@@ -354,7 +342,7 @@
   color: #fff;
 }
 
-.footer__link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
